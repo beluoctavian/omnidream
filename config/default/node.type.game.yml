@@ -11,7 +11,7 @@ third_party_settings:
     parent: 'main:'
 name: Game
 type: game
-description: 'Use <em>games</em> to create a page with a drescription and a gallery with gameplay screenshots.'
+description: 'Use <em>games</em> to create a page with a description and a gallery with gameplay screenshots.'
 help: ''
 new_revision: true
 preview_mode: 1
