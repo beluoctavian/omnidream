@@ -9,7 +9,7 @@ _core:
 id: themis_local_tasks
 theme: themis
 region: content
-weight: -40
+weight: -3
 provider: null
 plugin: local_tasks_block
 settings:

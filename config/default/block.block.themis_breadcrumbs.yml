@@ -1,6 +1,6 @@
 uuid: 043ce6f7-9884-47ab-81f7-87d8637435f6
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - system
@@ -10,8 +10,8 @@ _core:
   default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
 id: themis_breadcrumbs
 theme: themis
-region: header
-weight: 0
+region: '-1'
+weight: -4
 provider: null
 plugin: system_breadcrumb_block
 settings:
