@@ -3,3 +3,7 @@ main .block {
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
+.region-intro h1 span {
+  font-weight: bold;
+  font-size: 3rem;
+}
