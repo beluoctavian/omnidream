@@ -4,7 +4,6 @@ description: 'Responsive optimized html5 template'
 core: 8.x
 libraries:
   - themis/global-styling
-base theme: classy
 regions:
   header: Header
   content: Content
