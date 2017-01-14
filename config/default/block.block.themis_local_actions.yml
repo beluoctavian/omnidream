@@ -1,0 +1,20 @@
+uuid: b4b93224-2f7d-4f2b-9d84-a7573dab9df1
+langcode: en
+status: true
+dependencies:
+  theme:
+    - themis
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: themis_local_actions
+theme: themis
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

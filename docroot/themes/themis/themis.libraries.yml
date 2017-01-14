@@ -1,0 +1,14 @@
+global-styling:
+  css:
+    theme:
+      css/ress.min.css: {}
+      css/font-awesome.min.css: {}
+      css/webfonts.min.css: {}
+      css/style.min.css: {}
+  js:
+    js/variables.min.js: {}
+    js/extensions.min.js: {}
+    js/main.min.js: {}
+  dependencies:
+    - core/jquery
+    - core/jquery.ui

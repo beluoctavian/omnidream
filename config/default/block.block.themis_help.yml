@@ -1,0 +1,22 @@
+uuid: 5ec980ec-dbbd-41ee-a76b-d7186d6eb33f
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - themis
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: themis_help
+theme: themis
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,20 @@
+uuid: 0574bdbe-7b61-47fc-b855-3bf2e917e793
+langcode: en
+status: true
+dependencies:
+  theme:
+    - themis
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: themis_page_title
+theme: themis
+region: content
+weight: -50
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }
