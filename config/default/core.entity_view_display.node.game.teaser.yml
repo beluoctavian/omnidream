@@ -5,8 +5,12 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.game.body
+    - field.field.node.game.field_gallery
+    - field.field.node.game.field_image
+    - field.field.node.game.field_tags
     - node.type.game
   module:
+    - image
     - text
     - user
 id: node.game.teaser
@@ -17,10 +21,19 @@ content:
   body:
     label: hidden
     type: text_summary_or_trimmed
-    weight: 101
+    weight: 1
     settings:
       trim_length: 600
     third_party_settings: {  }
-  links:
-    weight: 100
-hidden: {  }
+  field_image:
+    type: image
+    weight: 0
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+hidden:
+  field_gallery: true
+  field_tags: true
+  links: true

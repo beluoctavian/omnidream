@@ -1,0 +1,15 @@
+uuid: 2c0ff1ef-2bfb-4efc-a4b2-cd734d419528
+langcode: en
+status: true
+dependencies: {  }
+name: 512x384
+label: 512x384
+effects:
+  225ff311-6117-4eec-a3c7-8f08bc7d8d2b:
+    uuid: 225ff311-6117-4eec-a3c7-8f08bc7d8d2b
+    id: image_scale
+    weight: 1
+    data:
+      width: 512
+      height: 384
+      upscale: false
