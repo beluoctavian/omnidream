@@ -54,20 +54,27 @@
 </header>
 
 <main>
-  <section class="tms tms-intro tms-intro-dark">
-
+  <section class="tms tms-intro-bg tms-intro-light tms-dark-background" style="background-image: url('/{{ directory }}/assets/images/2560x1200.png');">
+    <div class="tms-inner-border">
+      <div class="tms-container-fluid tms-center-vl">
+        <div class="tms-row">
+          <div class="tms-col-12_12 tms-center">
+            <div class="tms-uppercase">
+                {{ page.intro }}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
-  <div class="tms">
 
-      {{ page.breadcrumb }}
+  {{ page.breadcrumb }}
 
-      {{ page.highlighted }}
+  {{ page.highlighted }}
 
-      {{ page.help }}
+  {{ page.help }}
 
-      {{ page.content }}
-
-  </div>
+  {{ page.content }}
 
 </main>{# /.layout-container #}
 

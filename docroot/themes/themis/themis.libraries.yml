@@ -5,6 +5,7 @@ global-styling:
       assets/css/font-awesome.min.css: {}
       assets/css/webfonts.min.css: {}
       assets/css/style.min.css: {}
+      assets/css/overrides.css: {}
   js:
     assets/js/variables.min.js: {}
     assets/js/extensions.min.js: {}
