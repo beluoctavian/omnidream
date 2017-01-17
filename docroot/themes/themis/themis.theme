@@ -23,7 +23,7 @@ function themis_preprocess_page(&$variables) {
 }
 
 function themis_preprocess_region(&$variables) {
-  $variables['type'] = 'div';
+  $variables['type'] = 'section';
   if (empty($variables['container_attributes'])) {
     $variables['container_attributes'] = ['class' => []];
   }
