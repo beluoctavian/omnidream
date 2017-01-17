@@ -1,6 +1,6 @@
 uuid: 9bc75301-4d83-4a10-a4d8-c993b04731b5
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - system
@@ -10,7 +10,7 @@ _core:
   default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
 id: themis_branding
 theme: themis
-region: header
+region: '-1'
 weight: -7
 provider: null
 plugin: system_branding_block

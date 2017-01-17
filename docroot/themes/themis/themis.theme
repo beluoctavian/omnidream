@@ -1,5 +1,27 @@
 <?php
 
+function themis_preprocess_page(&$variables) {
+  $block = \Drupal\block\Entity\Block::load('themis_branding');
+  $branding = \Drupal::entityTypeManager()
+    ->getViewBuilder('block')
+    ->view($block);
+
+  $menu_tree = \Drupal::menuTree();
+  $parameters = $menu_tree->getCurrentRouteMenuTreeParameters('main');
+  $tree = $menu_tree->load('main', $parameters);
+  $manipulators = array(
+    array('callable' => 'menu.default_tree_manipulators:checkAccess'),
+    array('callable' => 'menu.default_tree_manipulators:generateIndexAndSort'),
+  );
+  $tree = $menu_tree->transform($tree, $manipulators);
+  $menu = $menu_tree->build($tree);//  dpm($branding);
+
+  $variables['page']['header'] = [
+    'branding' => $branding,
+    'menu' => $menu,
+  ];
+}
+
 function themis_preprocess_region(&$variables) {
   $variables['type'] = 'div';
   if (empty($variables['container_attributes'])) {

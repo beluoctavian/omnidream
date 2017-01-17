@@ -5,7 +5,6 @@ core: 8.x
 libraries:
   - themis/global-styling
 regions:
-  header: Header
   intro: Intro
   summary: Summary
   services: Services

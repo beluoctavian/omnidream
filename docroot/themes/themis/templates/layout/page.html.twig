@@ -27,7 +27,6 @@
  *   comment/reply/12345).
  *
  * Regions:
- * - page.header
  * - page.intro
  * - page.services
  * - page.portfolio
@@ -45,8 +44,21 @@
  */
 #}
 
-
-{{ page.header }}
+<header class="tms tms-header-transparent" data-feature="tms-sticky-header" data-header-start="tms-header-transparent" data-header-scroll="tms-header-fixed">
+  <div class="tms-container tms-pad-2x-hl tms-pad-vl">
+    <div class="tms-row">
+      <div class="tms-col-12_12">
+        {{ page.header.branding }}
+        <div class="tms-show-nav tms-mobile-nav">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        {{ page.header.menu }}
+      </div>
+    </div>
+  </div>
+</header>
 
 <main>
   {{ page.intro }}

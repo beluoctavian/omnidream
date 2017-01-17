@@ -30,26 +30,35 @@
   {% import _self as menus %}
   {% if items %}
     {% if menu_level == 0 %}
-      <ul{{ attributes.addClass('menu') }}>
+      <nav{{ attributes.addClass('tms-general-nav').setAttribute('data-effect', 'tms-sliding-menu') }}>
+        <ul class="tms-general-nav-box">
     {% else %}
-      <ul class="menu">
+      <ul class="tms-mobile-nav tms-general-submenu">
     {% endif %}
-    {% for item in items %}
-      {%
-        set classes = [
-          'menu-item',
-          item.is_expanded ? 'menu-item--expanded',
-          item.is_collapsed ? 'menu-item--collapsed',
-          item.in_active_trail ? 'menu-item--active-trail',
-        ]
-      %}
-      <li{{ item.attributes.addClass(classes) }}>
-        {{ link(item.title, item.url) }}
-        {% if item.below %}
-          {{ menus.menu_links(item.below, attributes, menu_level + 1) }}
-        {% endif %}
-      </li>
-    {% endfor %}
-    </ul>
+      {% for item in items %}
+        {%
+            set classes = [
+            item.in_active_trail ? 'active',
+          ]
+        %}
+        <li>
+            <a href="{{ item.url }}" {{ item.attributes.addClass(classes) }}>
+                {% if item.icon %}
+                    <i class="fa {{ item.icon }} tms-mobile-nav" aria-hidden="true"></i>
+                {% endif %}
+                {{ item.title }}
+                {% if item.below %}
+                    <i class="fa fa-angle-down" aria-hidden="true"></i>
+                {% endif %}
+            </a>
+          {% if item.below %}
+            {{ menus.menu_links(item.below, attributes, menu_level + 1) }}
+          {% endif %}
+        </li>
+      {% endfor %}
+      </ul>
+    {% if menu_level == 0 %}
+      </nav>
+    {% endif %}
   {% endif %}
 {% endmacro %}

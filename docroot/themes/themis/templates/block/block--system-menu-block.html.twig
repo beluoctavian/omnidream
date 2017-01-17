@@ -41,11 +41,6 @@
   ]
 %}
 {% set heading_id = attributes.id ~ '-menu'|clean_id %}
-<div class="tms-show-nav tms-mobile-nav">
-  <span></span>
-  <span></span>
-  <span></span>
-</div>
 <nav role="navigation" aria-labelledby="{{ heading_id }}"{{ attributes.addClass(classes)|without('role', 'aria-labelledby') }} data-effect="tms-sliding-menu">
   {# Label. If not displayed, we still provide it for screen readers. #}
   {% if not configuration.label_display %}
