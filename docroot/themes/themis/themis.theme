@@ -1,5 +1,26 @@
 <?php
 
 function themis_preprocess_region(&$variables) {
-    dpm($variables);
+  $variables['type'] = 'div';
+  if (empty($variables['container_attributes'])) {
+    $variables['container_attributes'] = ['class' => []];
+  }
+  switch ($variables['region']) {
+    case 'header':
+      $variables['type'] = 'header';
+      $variables['attributes']['class'][] = 'tms-header-transparent';
+      $variables['attributes']['data-feature'] = 'tms-sticky-header';
+      $variables['attributes']['data-header-start'] = 'tms-header-transparent';
+      $variables['attributes']['data-header-scroll'] = 'tms-header-fixed';
+      $variables['container_attributes']['class'][] = 'tms-pad-2x-hl';
+      $variables['container_attributes']['class'][] = 'tms-pad-vl';
+      dpm($variables);
+      break;
+    case 'intro':
+      $variables['attributes']['class'][] = 'tms-intro-bg';
+      $variables['attributes']['class'][] = 'tms-intro-light';
+      $variables['attributes']['class'][] = 'tms-dark-background';
+      break;
+  }
+  $variables['container_attributes'] = new \Drupal\Core\Template\Attribute($variables['container_attributes']);
 }
