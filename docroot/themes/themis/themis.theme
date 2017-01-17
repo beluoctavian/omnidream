@@ -1,0 +1,5 @@
+<?php
+
+function themis_preprocess_region(&$variables) {
+    dpm($variables);
+}

@@ -7,5 +7,13 @@ libraries:
 regions:
   header: Header
   intro: Intro
-  content: Content
+  summary: Summary
+  services: Services
+  portfolio: Portfolio
+  team: Team
+  quote: Quote
+  pricing: Pricing
+  results: Results
+  opinions: Opinions
+  contact: Contact
   footer: Footer
