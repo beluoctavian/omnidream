@@ -27,10 +27,8 @@
 %}
 {% if content %}
   <{{ type }}{{ attributes.addClass(classes) }}>
-    <div class="tms-inner-border">
-      <div{{ container_attributes.addClass(container_classes) }}>
-        {{ content }}
-      </div>
+    <div{{ container_attributes.addClass(container_classes) }}>
+      {{ content }}
     </div>
   </{{ type }}>
 {% endif %}

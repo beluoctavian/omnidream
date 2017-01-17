@@ -23,13 +23,16 @@
 {%
   set container_classes = [
     'tms-container-fluid',
+    'tms-center-vl',
   ]
 %}
 {% if content %}
   <{{ type }}{{ attributes.addClass(classes) }}>
-    <div{{ container_attributes.addClass(container_classes) }}>
-      <div class="tms-center">
-          {{ content }}
+    <div class="tms-inner-border">
+      <div{{ container_attributes.addClass(container_classes) }}>
+        <div class="tms-center">
+            {{ content }}
+        </div>
       </div>
     </div>
   </{{ type }}>
