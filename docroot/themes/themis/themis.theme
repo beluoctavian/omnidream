@@ -14,7 +14,6 @@ function themis_preprocess_region(&$variables) {
       $variables['attributes']['data-header-scroll'] = 'tms-header-fixed';
       $variables['container_attributes']['class'][] = 'tms-pad-2x-hl';
       $variables['container_attributes']['class'][] = 'tms-pad-vl';
-      dpm($variables);
       break;
     case 'intro':
       $variables['attributes']['class'][] = 'tms-intro-bg';
