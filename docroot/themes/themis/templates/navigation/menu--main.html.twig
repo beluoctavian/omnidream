@@ -47,9 +47,6 @@
                     <i class="fa {{ item.icon }} tms-mobile-nav" aria-hidden="true"></i>
                 {% endif %}
                 {{ item.title }}
-                {% if item.below %}
-                    <i class="fa fa-angle-down" aria-hidden="true"></i>
-                {% endif %}
             </a>
           {% if item.below %}
             {{ menus.menu_links(item.below, attributes, menu_level + 1) }}
