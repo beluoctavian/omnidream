@@ -1,6 +1,6 @@
 uuid: b4b93224-2f7d-4f2b-9d84-a7573dab9df1
 langcode: en
-status: true
+status: false
 dependencies:
   theme:
     - themis
@@ -8,8 +8,8 @@ _core:
   default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
 id: themis_local_actions
 theme: themis
-region: content
-weight: -1
+region: '-1'
+weight: -4
 provider: null
 plugin: local_actions_block
 settings:

@@ -14,3 +14,7 @@ permissions:
   - 'access comments'
   - 'access site-wide contact form'
   - 'search content'
+  - 'access devel information'
+  - 'execute php code'
+  - 'switch users'
+  - 'access kint'

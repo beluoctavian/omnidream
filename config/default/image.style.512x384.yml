@@ -5,11 +5,10 @@ dependencies: {  }
 name: 512x384
 label: 512x384
 effects:
-  225ff311-6117-4eec-a3c7-8f08bc7d8d2b:
-    uuid: 225ff311-6117-4eec-a3c7-8f08bc7d8d2b
-    id: image_scale
+  dc100c52-d6d8-4475-a437-3d7aa30020ff:
+    uuid: dc100c52-d6d8-4475-a437-3d7aa30020ff
+    id: image_scale_and_crop
     weight: 1
     data:
       width: 512
       height: 384
-      upscale: false

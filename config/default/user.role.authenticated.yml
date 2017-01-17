@@ -17,3 +17,7 @@ permissions:
   - 'access site-wide contact form'
   - 'access shortcuts'
   - 'search content'
+  - 'access devel information'
+  - 'execute php code'
+  - 'switch users'
+  - 'access kint'

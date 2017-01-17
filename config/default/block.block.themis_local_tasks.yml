@@ -1,6 +1,6 @@
 uuid: ab286894-743a-4836-8190-2ab287d6a99a
 langcode: en
-status: true
+status: false
 dependencies:
   theme:
     - themis
@@ -8,8 +8,8 @@ _core:
   default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
 id: themis_local_tasks
 theme: themis
-region: content
-weight: -3
+region: '-1'
+weight: -2
 provider: null
 plugin: local_tasks_block
 settings:
