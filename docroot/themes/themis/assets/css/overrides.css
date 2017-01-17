@@ -7,3 +7,14 @@ main .block {
   font-weight: bold;
   font-size: 3rem;
 }
+.tms-header .tms-general-nav .tms-general-submenu li,
+.tms-header-fixed .tms-general-nav .tms-general-submenu li,
+.tms-header-transparent .tms-general-nav .tms-general-submenu li {
+  display: block;
+}
+.tms-header .tms-general-nav .tms-general-submenu li a,
+.tms-header-fixed .tms-general-nav .tms-general-submenu li a,
+.tms-header-transparent .tms-general-nav .tms-general-submenu li a {
+  display: inline-block;
+  width: auto;
+}
