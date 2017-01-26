@@ -13,57 +13,57 @@
    -------- */
 @font-face {
   font-family: 'Primary';
-  src: url('../fonts/oswald/oswald_light.woff') format('woff'),
-       url('../fonts/oswald/oswald_light.ttf') format('truetype');
+  src: url('../fonts/oswald/oswald-light.woff') format('woff'),
+       url('../fonts/oswald/oswald-light.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'Primary';
-  src: url('../fonts/oswald/oswald_light-italic.woff') format('woff'),
-       url('../fonts/oswald/oswald_light-italic.ttf') format('truetype');
+  src: url('../fonts/oswald/oswald-light-italic.woff') format('woff'),
+       url('../fonts/oswald/oswald-light-italic.ttf') format('truetype');
   font-weight: normal;
   font-style: italic;
 }
 @font-face {
   font-family: 'Primary';
-  src: url('../fonts/oswald/oswald_bold.woff') format('woff'),
-       url('../fonts/oswald/oswald_bold.ttf') format('truetype');
+  src: url('../fonts/oswald/oswald-bold.woff') format('woff'),
+       url('../fonts/oswald/oswald-bold.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
 }
 @font-face {
   font-family: 'Primary';
-  src: url('../fonts/oswald/oswald_bold-italic.woff') format('woff'),
-       url('../fonts/oswald/oswald_bold-italic.ttf') format('truetype');
+  src: url('../fonts/oswald/oswald-bold-italic.woff') format('woff'),
+       url('../fonts/oswald/oswald-bold-italic.ttf') format('truetype');
   font-weight: bold;
   font-style: italic;
 }
 @font-face {
   font-family: 'Secondary';
-  src: url('../fonts/ubuntu/ubuntu_light.woff') format('woff'),
-       url('../fonts/ubuntu/ubuntu_light.ttf') format('truetype');
+  src: url('../fonts/ubuntu/ubuntu-light.woff') format('woff'),
+       url('../fonts/ubuntu/ubuntu-light.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'Secondary';
-  src: url('../fonts/ubuntu/ubuntu_light-italic.woff') format('woff'),
-       url('../fonts/ubuntu/ubuntu_light-italic.ttf') format('truetype');
+  src: url('../fonts/ubuntu/ubuntu-light-italic.woff') format('woff'),
+       url('../fonts/ubuntu/ubuntu-light-italic.ttf') format('truetype');
   font-weight: normal;
   font-style: italic;
 }
 @font-face {
   font-family: 'Secondary';
-  src: url('../fonts/ubuntu/ubuntu_bold.woff') format('woff'),
-       url('../fonts/ubuntu/ubuntu_bold.ttf') format('truetype');
+  src: url('../fonts/ubuntu/ubuntu-bold.woff') format('woff'),
+       url('../fonts/ubuntu/ubuntu-bold.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
 }
 @font-face {
   font-family: 'Secondary';
-  src: url('../fonts/ubuntu/ubuntu_bold-italic.woff') format('woff'),
-       url('../fonts/ubuntu/ubuntu_bold-italic.ttf') format('truetype');
+  src: url('../fonts/ubuntu/ubuntu-bold-italic.woff') format('woff'),
+       url('../fonts/ubuntu/ubuntu-bold-italic.ttf') format('truetype');
   font-weight: bold;
   font-style: italic;
 }

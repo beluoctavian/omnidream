@@ -51,11 +51,11 @@ Containers:
 ---------------- */
 /* ----------------
 Headings:
-- Standard size of headings can be increased of 150% by adding of 'large' in class name; see '_elements.scss'
+- Standard size of headings can be increased of 150% by adding of 'large' in class name; see '-elements.scss'
 ---------------- */
 /* ----------------
 Paragraphs:
-- Standard size of paragraphs can be increased of 150% by adding of 'large' in class name; see '_elements.scss'
+- Standard size of paragraphs can be increased of 150% by adding of 'large' in class name; see '-elements.scss'
 ---------------- */
 /* --------
 Typograpfy options:
@@ -100,68 +100,68 @@ Clearfix:
 Columns:
 -------- */
 .tms-col,
-.tms-col-12_12,
-.tms-col-11_12,
-.tms-col-10_12,
-.tms-col-9_12,
-.tms-col-8_12,
-.tms-col-7_12,
-.tms-col-6_12,
-.tms-col-5_12,
-.tms-col-4_12,
-.tms-col-3_12,
-.tms-col-2_12,
-.tms-col-1_12 {
+.tms-col-12-12,
+.tms-col-11-12,
+.tms-col-10-12,
+.tms-col-9-12,
+.tms-col-8-12,
+.tms-col-7-12,
+.tms-col-6-12,
+.tms-col-5-12,
+.tms-col-4-12,
+.tms-col-3-12,
+.tms-col-2-12,
+.tms-col-1-12 {
   float: left;
   display: block;
   position: relative;
 }
 
-.tms-col-12_12 {
+.tms-col-12-12 {
   width: 100%;
 }
 
-.tms-col-11_12 {
+.tms-col-11-12 {
   width: calc(100% / 12 * 11);
 }
 
-.tms-col-10_12 {
+.tms-col-10-12 {
   width: calc(100% / 12 * 10);
 }
 
-.tms-col-9_12 {
+.tms-col-9-12 {
   width: calc(100% / 12 * 9);
 }
 
-.tms-col-8_12 {
+.tms-col-8-12 {
   width: calc(100% / 12 * 8);
 }
 
-.tms-col-7_12 {
+.tms-col-7-12 {
   width: calc(100% / 12 * 7);
 }
 
-.tms-col-6_12 {
+.tms-col-6-12 {
   width: calc(100% / 12 * 6);
 }
 
-.tms-col-5_12 {
+.tms-col-5-12 {
   width: calc(100% / 12 * 5);
 }
 
-.tms-col-4_12 {
+.tms-col-4-12 {
   width: calc(100% / 12 * 4);
 }
 
-.tms-col-3_12 {
+.tms-col-3-12 {
   width: calc(100% / 12 * 3);
 }
 
-.tms-col-2_12 {
+.tms-col-2-12 {
   width: calc(100% / 12 * 2);
 }
 
-.tms-col-1_12 {
+.tms-col-1-12 {
   width: calc(100% / 12 * 1);
 }
 
@@ -175,56 +175,56 @@ Columns:
 
 @media screen and (min-width: 480px) {
   .tms-col-m,
-  .tms-col-m-12_12,
-  .tms-col-m-11_12,
-  .tms-col-m-10_12,
-  .tms-col-m-9_12,
-  .tms-col-m-8_12,
-  .tms-col-m-7_12,
-  .tms-col-m-6_12,
-  .tms-col-m-5_12,
-  .tms-col-m-4_12,
-  .tms-col-m-3_12,
-  .tms-col-m-2_12,
-  .tms-col-m-1_12 {
+  .tms-col-m-12-12,
+  .tms-col-m-11-12,
+  .tms-col-m-10-12,
+  .tms-col-m-9-12,
+  .tms-col-m-8-12,
+  .tms-col-m-7-12,
+  .tms-col-m-6-12,
+  .tms-col-m-5-12,
+  .tms-col-m-4-12,
+  .tms-col-m-3-12,
+  .tms-col-m-2-12,
+  .tms-col-m-1-12 {
     float: left;
     display: block;
     position: relative;
   }
-  .tms-col-m-12_12 {
+  .tms-col-m-12-12 {
     width: 100%;
   }
-  .tms-col-m-11_12 {
+  .tms-col-m-11-12 {
     width: calc(100% / 12 * 11);
   }
-  .tms-col-m-10_12 {
+  .tms-col-m-10-12 {
     width: calc(100% / 12 * 10);
   }
-  .tms-col-m-9_12 {
+  .tms-col-m-9-12 {
     width: calc(100% / 12 * 9);
   }
-  .tms-col-m-8_12 {
+  .tms-col-m-8-12 {
     width: calc(100% / 12 * 8);
   }
-  .tms-col-m-7_12 {
+  .tms-col-m-7-12 {
     width: calc(100% / 12 * 7);
   }
-  .tms-col-m-6_12 {
+  .tms-col-m-6-12 {
     width: calc(100% / 12 * 6);
   }
-  .tms-col-m-5_12 {
+  .tms-col-m-5-12 {
     width: calc(100% / 12 * 5);
   }
-  .tms-col-m-4_12 {
+  .tms-col-m-4-12 {
     width: calc(100% / 12 * 4);
   }
-  .tms-col-m-3_12 {
+  .tms-col-m-3-12 {
     width: calc(100% / 12 * 3);
   }
-  .tms-col-m-2_12 {
+  .tms-col-m-2-12 {
     width: calc(100% / 12 * 2);
   }
-  .tms-col-m-1_12 {
+  .tms-col-m-1-12 {
     width: calc(100% / 12 * 1);
   }
   .tms-col-m-opposite {
@@ -237,56 +237,56 @@ Columns:
 
 @media screen and (min-width: 768px) {
   .tms-col-l,
-  .tms-col-l-12_12,
-  .tms-col-l-11_12,
-  .tms-col-l-10_12,
-  .tms-col-l-9_12,
-  .tms-col-l-8_12,
-  .tms-col-l-7_12,
-  .tms-col-l-6_12,
-  .tms-col-l-5_12,
-  .tms-col-l-4_12,
-  .tms-col-l-3_12,
-  .tms-col-l-2_12,
-  .tms-col-l-1_12 {
+  .tms-col-l-12-12,
+  .tms-col-l-11-12,
+  .tms-col-l-10-12,
+  .tms-col-l-9-12,
+  .tms-col-l-8-12,
+  .tms-col-l-7-12,
+  .tms-col-l-6-12,
+  .tms-col-l-5-12,
+  .tms-col-l-4-12,
+  .tms-col-l-3-12,
+  .tms-col-l-2-12,
+  .tms-col-l-1-12 {
     float: left;
     display: block;
     position: relative;
   }
-  .tms-col-l-12_12 {
+  .tms-col-l-12-12 {
     width: 100%;
   }
-  .tms-col-l-11_12 {
+  .tms-col-l-11-12 {
     width: calc(100% / 12 * 11);
   }
-  .tms-col-l-10_12 {
+  .tms-col-l-10-12 {
     width: calc(100% / 12 * 10);
   }
-  .tms-col-l-9_12 {
+  .tms-col-l-9-12 {
     width: calc(100% / 12 * 9);
   }
-  .tms-col-l-8_12 {
+  .tms-col-l-8-12 {
     width: calc(100% / 12 * 8);
   }
-  .tms-col-l-7_12 {
+  .tms-col-l-7-12 {
     width: calc(100% / 12 * 7);
   }
-  .tms-col-l-6_12 {
+  .tms-col-l-6-12 {
     width: calc(100% / 12 * 6);
   }
-  .tms-col-l-5_12 {
+  .tms-col-l-5-12 {
     width: calc(100% / 12 * 5);
   }
-  .tms-col-l-4_12 {
+  .tms-col-l-4-12 {
     width: calc(100% / 12 * 4);
   }
-  .tms-col-l-3_12 {
+  .tms-col-l-3-12 {
     width: calc(100% / 12 * 3);
   }
-  .tms-col-l-2_12 {
+  .tms-col-l-2-12 {
     width: calc(100% / 12 * 2);
   }
-  .tms-col-l-1_12 {
+  .tms-col-l-1-12 {
     width: calc(100% / 12 * 1);
   }
   .tms-col-l-opposite {
