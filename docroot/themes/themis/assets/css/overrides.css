@@ -18,3 +18,7 @@ main .block {
   display: inline-block;
   width: auto;
 }
+.tms-portfolio .tms-portfolio-item img {
+  width: 100%;
+  height: auto;
+}
