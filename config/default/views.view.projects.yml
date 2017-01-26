@@ -6,6 +6,7 @@ dependencies:
     - field.storage.node.field_image
     - image.style.512x384
     - node.type.game
+    - system.menu.main
   module:
     - image
     - node
@@ -63,7 +64,7 @@ display:
           automatic_width: false
           alignment: horizontal
           col_class_default: false
-          col_class_custom: 'tms-portfolio-item tms-col-12_12 tms-col-m-6_12 tms-col-l-3_12'
+          col_class_custom: 'tms-portfolio-item tms-col-12-12 tms-col-m-6-12 tms-col-l-3-12'
           row_class_default: false
           row_class_custom: 'tms-portfolio-list tms-row tms-center'
       row:
@@ -240,7 +241,7 @@ display:
           expose:
             label: ''
           granularity: second
-      title: Projects
+      title: Portfolio
       header: {  }
       footer: {  }
       empty: {  }
@@ -263,6 +264,32 @@ display:
     position: 1
     display_options:
       display_extenders: {  }
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - 'user.node_grants:view'
+        - user.permissions
+      tags:
+        - 'config:field.storage.node.field_image'
+  page_1:
+    display_plugin: page
+    id: page_1
+    display_title: Page
+    position: 2
+    display_options:
+      display_extenders: {  }
+      path: portfolio
+      menu:
+        type: normal
+        title: Portfolio
+        description: ''
+        expanded: false
+        parent: ''
+        weight: 3
+        context: '0'
+        menu_name: main
     cache_metadata:
       max-age: -1
       contexts:
