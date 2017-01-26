@@ -1,0 +1,53 @@
+<?php
+
+/**
+ * Implements hook_form_alter().
+ */
+function omnidream_base_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
+  switch ($form_id) {
+    case 'contact_message_feedback_form':
+      $form['name_container'] = [
+        '#type' => 'container',
+        '#attributes' => ['class' => ['tms-col-12-12', 'tms-col-m-6-12', 'tms-pad']],
+        '#weight' => '1',
+        'name' => $form['name'],
+      ];
+      unset($form['name']);
+
+      $form['mail_container'] = [
+        '#type' => 'container',
+        '#attributes' => ['class' => ['tms-col-12-12', 'tms-col-m-6-12', 'tms-pad']],
+        '#weight' => '2',
+        'mail' => $form['mail'],
+      ];
+      unset($form['mail']);
+
+      $form['subject_container'] = [
+        '#type' => 'container',
+        '#attributes' => ['class' => ['tms-col-12-12', 'tms-pad']],
+        '#weight' => '3',
+        'subject' => $form['subject'],
+      ];
+      unset($form['subject']);
+
+      $form['message_container'] = [
+        '#type' => 'container',
+        '#attributes' => ['class' => ['tms-col-12-12', 'tms-pad']],
+        '#weight' => '3',
+        'message' => $form['message'],
+      ];
+      unset($form['message']);
+
+      $form['actions']['submit']['#attributes']['class'][] = 'tms-primary';
+      $form['actions']['submit_container'] = [
+        '#type' => 'container',
+        '#attributes' => ['class' => ['tms-col-12-12', 'tms-pad']],
+        '#weight' => '3',
+        'submit' => $form['actions']['submit'],
+      ];
+      unset($form['actions']['submit']);
+
+      hide($form['actions']['preview']);
+      break;
+  }
+}

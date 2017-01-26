@@ -1,0 +1,5 @@
+name: Omnidream base module
+description: All website functionality
+package: Custom
+type: module
+core: 8.x

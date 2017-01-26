@@ -287,7 +287,7 @@ display:
         description: ''
         expanded: true
         parent: ''
-        weight: 3
+        weight: -48
         context: '0'
         menu_name: main
     cache_metadata:
