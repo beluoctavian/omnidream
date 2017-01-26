@@ -285,7 +285,7 @@ display:
         type: normal
         title: Portfolio
         description: ''
-        expanded: false
+        expanded: true
         parent: ''
         weight: 3
         context: '0'
