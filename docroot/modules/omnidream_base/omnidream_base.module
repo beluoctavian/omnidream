@@ -5,6 +5,33 @@
  */
 function omnidream_base_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
   switch ($form_id) {
+    case 'user_login_form':
+      $form['name_container'] = [
+        '#type' => 'container',
+        '#attributes' => ['class' => ['tms-col-12-12', 'tms-col-m-6-12', 'tms-pad']],
+        '#weight' => '1',
+        'name' => $form['name'],
+      ];
+      unset($form['name']);
+
+      $form['pass_container'] = [
+        '#type' => 'container',
+        '#attributes' => ['class' => ['tms-col-12-12', 'tms-col-m-6-12', 'tms-pad']],
+        '#weight' => '2',
+        'pass' => $form['pass'],
+      ];
+      unset($form['pass']);
+
+      $form['actions']['submit']['#attributes']['class'][] = 'tms-primary';
+      $form['actions']['submit_container'] = [
+        '#type' => 'container',
+        '#attributes' => ['class' => ['tms-col-12-12', 'tms-pad']],
+        '#weight' => '3',
+        'submit' => $form['actions']['submit'],
+      ];
+      unset($form['actions']['submit']);
+      break;
+
     case 'contact_message_feedback_form':
       $form['name_container'] = [
         '#type' => 'container',
