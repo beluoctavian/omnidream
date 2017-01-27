@@ -12,7 +12,7 @@
   var breakLarge      = '768';
   var breakMedium     = '480';
   /* colors */
-  var primaryColor     = '#C4573D';
+  var primaryColor     = '#1769AE';
   var greyColor        = '#505050';
 
   /* helpers */
