@@ -1,0 +1,14 @@
+uuid: a5c4547e-bc77-47d3-8121-0551d0b66d03
+langcode: en
+status: true
+dependencies: {  }
+name: 430x
+label: 430x430
+effects:
+  c768fb4a-4c62-411b-89f0-006b69f6574b:
+    uuid: c768fb4a-4c62-411b-89f0-006b69f6574b
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 430
+      height: 430
