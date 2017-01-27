@@ -7,8 +7,10 @@ global-styling:
       assets/css/style-blue.min.css: {}
       assets/css/overrides.css: {}
   js:
-    assets/js/jquery.min.js: {}
-    assets/js/jquery-ui.min.js: {}
-    assets/js/variables.min.js: {}
-    assets/js/extensions.min.js: {}
-    assets/js/main.min.js: {}
+    assets/js/variables.js: {}
+    assets/js/extensions.js: {}
+    assets/js/main.js: {}
+  dependencies:
+    - core/jquery
+    - core/jquery.ui
+    - core/jquery.once
