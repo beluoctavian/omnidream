@@ -18,9 +18,8 @@ content:
   body:
     label: hidden
     type: text_default
-    weight: 100
+    weight: 0
     settings: {  }
     third_party_settings: {  }
-  links:
-    weight: 101
-hidden: {  }
+hidden:
+  links: true
