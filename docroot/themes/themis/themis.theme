@@ -37,11 +37,6 @@ function themis_preprocess_region(&$variables) {
       $variables['container_attributes']['class'][] = 'tms-pad-2x-hl';
       $variables['container_attributes']['class'][] = 'tms-pad-vl';
       break;
-    case 'intro':
-      $variables['attributes']['class'][] = 'tms-intro-bg';
-      $variables['attributes']['class'][] = 'tms-intro-light';
-      $variables['attributes']['class'][] = 'tms-dark-background';
-      break;
   }
   $variables['container_attributes'] = new \Drupal\Core\Template\Attribute($variables['container_attributes']);
 }

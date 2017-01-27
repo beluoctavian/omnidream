@@ -61,7 +61,19 @@
 </header>
 
 <main>
-  {{ page.intro }}
+  <section class="tms-intro-bg tms-intro-light tms-dark-background tms tms-intro">
+    <div class="tms-inner-border">
+      <div class="tms-container-fluid tms-center-vl">
+        <div class="tms-center">
+          {% if is_front and node %}
+              <h1 class="tms-uppercase">
+                {{ node.getTitle }}
+              </h1>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </section>
 
   {{ page.summary }}
 
