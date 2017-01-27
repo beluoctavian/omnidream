@@ -11,7 +11,7 @@ _core:
 id: themis_content
 theme: themis
 region: summary
-weight: -6
+weight: -4
 provider: null
 plugin: system_main_block
 settings:

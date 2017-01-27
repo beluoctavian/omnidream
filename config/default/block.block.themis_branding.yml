@@ -11,7 +11,7 @@ _core:
 id: themis_branding
 theme: themis
 region: '-1'
-weight: -7
+weight: -2
 provider: null
 plugin: system_branding_block
 settings:
