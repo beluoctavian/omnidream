@@ -2,6 +2,38 @@
   font-weight: bold;
   font-size: 3rem;
 }
+.tabs {
+  list-style-type: none;
+  padding-bottom: 3rem;
+  width: 100%;
+}
+.tabs li {
+  width: auto!important;
+  margin-right: 10px;
+  float: left;
+}
+.tabs li a {
+  display: inline-block;
+  min-width: 7rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 2rem;
+  height: 2rem;
+  padding: 0 0.5rem;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 0.25rem;
+  margin: 0;
+  color: #1769AE;
+  background-color: transparent;
+  border-color: #1769AE;
+  text-align: center;
+}
+.tabs li a.is-active {
+  color: #fff;
+  background-color: #1769AE;
+  border-color: #1769AE;
+}
 .tms-header .tms-general-nav .tms-general-submenu li,
 .tms-header-fixed .tms-general-nav .tms-general-submenu li,
 .tms-header-transparent .tms-general-nav .tms-general-submenu li {
