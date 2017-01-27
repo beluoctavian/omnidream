@@ -40,3 +40,11 @@ function themis_preprocess_region(&$variables) {
   }
   $variables['container_attributes'] = new \Drupal\Core\Template\Attribute($variables['container_attributes']);
 }
+
+function themis_preprocess_menu(&$variables) {
+  if ($variables['menu_name'] == 'main') {
+    if (\Drupal::service('path.matcher')->isFrontPage()) {
+      $variables['items']['standard.front_page']['in_active_trail'] = true;
+    }
+  }
+}
